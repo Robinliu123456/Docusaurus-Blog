@@ -338,7 +338,7 @@
             "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-02/2023-02-06-undefined-null.mdx",
             "source": "@site/blog/2023-02/2023-02-06-undefined-null.mdx",
             "title": "null，undefined 的区别？",
-            "description": "null      表示一个对象是“没有值”的值，也就是值为“空”；",
+            "description": "1. null      表示一个对象是“没有值”的值，也就是值为“空”；",
             "date": "2023-02-06T00:00:00.000Z",
             "formattedDate": "February 6, 2023",
             "tags": [
@@ -347,7 +347,7 @@
                 "permalink": "/blog/tags/brower"
               }
             ],
-            "readingTime": 1.555,
+            "readingTime": 1.565,
             "hasTruncateMarker": false,
             "authors": [
               {
@@ -372,7 +372,7 @@
               "permalink": "/blog/浏览器渲染原理解析"
             }
           },
-          "content": "null      表示一个对象是“没有值”的值，也就是值为“空”；\n undefined     表示一个变量声明了没有初始化(赋值)；\n undefined不是一个有效的JSON，而null是；\n undefined的类型(typeof)是undefined；\n null的类型(typeof)是object；\n \n Javascript将未赋值的变量默认值设为undefined；\n Javascript从来不会将变量设为null。它是用来让程序员表明某个用var声明的变量时没有值的。\n typeof undefined\n    //\"undefined\"\n    undefined :是一个表示\"无\"的原始值或者说表示\"缺少值\"，就是此处应该有一个值，但是还没有定义。当尝试读取时会返回 undefined；\n    例如变量被声明了，但没有赋值时，就等于undefined\n typeof null\n    //\"object\"\n    null : 是一个对象(空对象, 没有任何属性和方法)；\n    例如作为函数的参数，表示该函数的参数不是对象；\n - 注意：\n    在验证null时，一定要使用　=== ，因为 == 无法分别 null 和　undefined\n    null == undefined // true\n    null === undefined // false\n 再来一个例子：\n ```\n    null\n    Q：有张三这个人么？\n    A：有！\n    Q：张三有房子么？\n    A：没有！\n \n    undefined\n    Q：有张三这个人么？\n    A：有！\n    Q: 张三有多少岁？\n    A: 不知道（没有被告诉）\n    ```"
+          "content": "1. null      表示一个对象是“没有值”的值，也就是值为“空”；\n 2. undefined     表示一个变量声明了没有初始化(赋值)；\n undefined不是一个有效的JSON，而null是；\n undefined的类型(typeof)是undefined；\n null的类型(typeof)是object；\n \n Javascript将未赋值的变量默认值设为undefined；\n Javascript从来不会将变量设为null。它是用来让程序员表明某个用var声明的变量时没有值的。\n typeof undefined\n    //\"undefined\"\n    undefined :是一个表示\"无\"的原始值或者说表示\"缺少值\"，就是此处应该有一个值，但是还没有定义。当尝试读取时会返回 undefined；\n    例如变量被声明了，但没有赋值时，就等于undefined\n typeof null\n    //\"object\"\n    null : 是一个对象(空对象, 没有任何属性和方法)；\n    例如作为函数的参数，表示该函数的参数不是对象；\n - 注意：\n    在验证null时，一定要使用　=== ，因为 == 无法分别 null 和　undefined\n    null == undefined // true\n    null === undefined // false\n 再来一个例子：\n ```\n    null\n    Q：有张三这个人么？\n    A：有！\n    Q：张三有房子么？\n    A：没有！\n \n    undefined\n    Q：有张三这个人么？\n    A：有！\n    Q: 张三有多少岁？\n    A: 不知道（没有被告诉）\n    ```"
         },
         {
           "id": "浏览器渲染原理解析",
