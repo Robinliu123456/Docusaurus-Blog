@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/浏览器渲染原理解析",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-02/2023-02-06-Analysis-of-browser-rendering-principle/index.mdx",
+  "source": "@site/blog/2023-02/2023-02-06-Analysis-of-browser-rendering-principle/index.mdx",
+  "title": "浏览器渲染原理解析",
+  "description": "1. 首先渲染引擎下载HTML，解析生成DOM Tree",
+  "date": "2023-02-06T00:00:00.000Z",
+  "formattedDate": "February 6, 2023",
+  "tags": [
+    {
+      "label": "brower",
+      "permalink": "/blog/tags/brower"
+    }
+  ],
+  "readingTime": 1.405,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "有出路",
+      "title": "2023年想要学好前端的有出路",
+      "url": "https://juejin.cn/user/2199503148693176/",
+      "imageURL": "https://p3-passport.byteimg.com/img/user-avatar/f82830ca669e2166004e8c0dac1fbb02~180x180.awebp",
+      "key": "有出路"
+    }
+  ],
+  "frontMatter": {
+    "slug": "浏览器渲染原理解析",
+    "title": "浏览器渲染原理解析",
+    "authors": [
+      "有出路"
+    ],
+    "tags": [
+      "brower"
+    ]
+  },
+  "prevItem": {
+    "title": "null，undefined 的区别？",
+    "permalink": "/blog/2023/02/06/2023-02/undefined-null"
+  },
+  "nextItem": {
+    "title": "浏览器的内核",
+    "permalink": "/blog/浏览器的内核"
+  }
+}
